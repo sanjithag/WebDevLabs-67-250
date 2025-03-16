@@ -65,10 +65,11 @@ function greetingFunc() {
             document.getElementById('name').innerHTML = "Good night, I'm Sanjitha";
         }
     }
-
-
+    
+console.log(window.location.href.includes)
 if (window.location.href.includes('index.html'))
 {
+    console.log("Hello")
     greetingFunc();
 }
     
