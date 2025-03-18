@@ -106,6 +106,14 @@ function validate() {
     var email1 = document.getElementById('email');
     var message1 = document.getElementById('comment');
     var notification = document.getElementById('validateMessage');
-    if (!name1.checkValidity() || !email1.checkValidity() || !message1.checkValidity()) {
-        notification.innerHTML = "Please enter message";
-}}
+    if (!name1.checkValidity()) {
+        notification.innerHTML = "Please enter name";
+    }
+    else if(!email1.checkValidity()) {
+        notification.innerHTML = "Please enter email";
+    }
+    else if(!message1.checkValidity()) {
+        notification.innerHTML = "Please enter comment";
+    }    
+       
+}
