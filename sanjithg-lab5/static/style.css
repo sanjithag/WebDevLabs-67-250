@@ -1,0 +1,93 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    padding: 5px;
+    margin: 5px;
+}
+
+#contact, #coverletter, #fun, #indexheader {
+    background-color: #b17079a9;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(63, 21, 200);
+    margin-right: 15px;
+}
+
+table th {
+    padding: 12px;
+    background-color: darkgray;
+    color: white;
+    width: fit-content;
+}
+
+table tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+form * {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+form input[type='submit'] {
+    background-color: rgb(119, 193, 119);
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+/* #favList {
+    display: none
+} */
+
+#longIntro, #readLess {
+    display: none
+}
+
+.funIMG {
+    border-radius: 100%;
+    height: 75%;
+    width: 40%;
+}
+
+/* #item2 {
+    display: flex;
+    justify-content: right;
+} */
+
+.container {
+    display: inline-block;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container button {
+    padding: 10px 15px;
+    border: none;
+    background-color:#a7c681;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: darkgrey;
+}
+
+.mainLayout {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#item1, #item2, #item3, #item4 {
+    width: 40vw;
+    margin: auto;
+}
