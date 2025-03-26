@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <meta name="author" content="Sanjitha Govindan">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Sanjitha Govindan Professional Website">
+
+    <title>Sanjitha Govindan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script defer src="../static/script.js" ></script>
+    <script src="../static/jquery-3.7.1.min"></script>
+
+    
+</head>
+<body style="font-family:Arial" onload="addYear()">
+    <h1 id="contact">Sanjitha Govindan</h1>
+    <nav>
+        <a href="../index.html" class="button">Home</a>
+        <a href="cv.html" class="button">CV</a>
+        <a href="contact.html" class="button active">Contact</a>
+        <a href="fun.html" class="button">For Fun</a>
+        <a href="../template2.html"  class="button">Template Page</a>
+    </nav>
+
+    <div class="mainLayout">
+        <div id="item1">
+            <h2 id="mapEmbed">Find Me</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.4486144151165!2d-79.94542482375213!3d40.44320675402721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f21f58679a9f%3A0x88716b461fc4daf4!2sCarnegie%20Mellon%20University!5e0!3m2!1sen!2sus!4v1742759432488!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+        </div>
+        <div id="item2">
+            <h2 id="contactMeHeader">Contact Me</h2>
+                <form>
+                    <label for="name">    Name:     </label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">   Email:     </label>
+                    <input type="text" id="email" name="email" required><br>
+                    <label for="comment">Comment: </label>
+                    <input type="text" id="comment" name="comment" style="height:50px;" required><br>
+                    <input type="submit" value="Submit" onclick="validate()"><br>
+                    <p id="validateMessage"></p>
+                </form>
+        </div>
+        
+
+      
+ 
+    <div class="contactMain">
+
+    </div>
+
+        
+    <div class="contactTable">
+        <table>
+            <tr>
+                <th>Contact Method</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><a href="mailto:sanjithg@andrew.cmu.edu">sanjithg@andrew.cmu.edu</a></td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td>(916) 385-9173</td>
+            </tr>
+            <tr>
+                <td>LinkedIn:</td>
+                <td><a href="https://www.linkedin.com/in/sanjitha-govindan/">https://www.linkedin.com/in/sanjitha-govindan/</a></td>
+            </tr>
+            
+        </table>
+    </div>    
+    </div>
+    
+
+        <footer>
+            <p id="copyYear">designed and coded by Sanjitha Govindan &copy;</p> 
+        </footer>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <meta name="author" content="Sanjitha Govindan">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Sanjitha Govindan Professional Website">
+
+    <title>Sanjitha Govindan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <script defer src="../static/script.js" ></script>
+    <script src="../static/jquery-3.7.1.min"></script>
+
+</head>
+<body style="font-family:Arial" onload="addYear()">
+    <h1 id="fun">Sanjitha Govindan</h1>
+    <nav>
+        <a href="../index.html" class="button">Home</a>
+        <a href="cv.html" class="button">CV</a>
+        <a href="contact.html"  class="button">Contact</a>
+        <a href="fun.html" class="button active">For Fun</a>
+        <a href="../template2.html"  class="button">Template Page</a>
+    </nav>
+
+    <div class="mainLayout">
+            <div id="item1">
+                <h2>Things I love to do for fun</h2>
+                <!--- <button id="SeeMoreButton" onclick="showList()">Click to see more</button> -->
+                <ul id="favList">
+                    <li>Traveling with my friends and family</li>
+                    <li>Baking (especially cakes and cookies)</li>
+                    <li>Learning new pieces on the piano</li>
+                </ul>
+            </div>
+            <div id="item2">
+                <img src="../static/16f3457c-0a5b-4477-9863-599f73e6fb9b.jpg" alt="Traveling IMG" class="funIMG">
+    
+            </div>
+
+        <div id="item3">
+            <iframe width="600" height="500" src="https://www.youtube.com/embed/qM43gnigKgQ" title="Carnegie Mellon University 2024 Commercial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div id="item4">
+            <div class="container">
+                <h2>Need Some Advice?</h2>
+                <p id="adviceText">Click the button to get a random piece of advice!</p>
+                <button onclick="getAdvice()">Get Advice</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">designed and coded by Sanjitha Govindan &copy;</p> 
+    </footer>
+
+</body>
+</html>
